@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.title {
+  margin: 20px auto;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.smile {
+  font-size: 50px;
+}
+
+.smileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.rateBtn {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.winner {
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background: transparent;
+  cursor: pointer;
+}
